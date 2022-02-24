@@ -1,0 +1,88 @@
+            html{
+                height: 100vh;
+            }
+            *{
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+             margin: 0;
+             padding: 0;
+             color: white;
+             text-decoration: none;
+             
+            
+            }
+            #cover{
+                
+
+                background-image: url("meaty.jpg");
+                background-size: cover;
+                height: 100vh;
+                background-position: center center;
+                position: relative;
+                
+            }
+         
+            h1{
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                margin-top: 4rem;
+                font-size: 70px;
+                
+            }
+            nav{
+                text-align: center;
+                
+                
+                
+            }
+      .nav li{
+          color: white;
+          padding: 1rem;
+          display:inline-block;
+          justify-content: center;
+          align-items:center;
+          
+      }
+      a:hover,a:active{
+          color: rgba(230, 205, 97, 0.753);
+          background-color: rgb(54, 46, 44);
+          width: 10%;
+      }
+      
+
+      .catchy p{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 30rem;
+          margin: auto;
+          
+      }
+      .contact{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: aliceblue;
+          margin: 5rem;
+          font-weight:bold;
+      }
+      #logo img{
+        width: 150px;
+        margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 5rem;
+          border-radius: 15px 40px 15px 40px;
+          opacity: 65%;
+
+      }
+      address>a:hover, address>a:active{
+        color:rgb(16, 20, 238);
+        background-color:unset;
+         width: 4rem;
+         cursor: grab;
+      }
+      
