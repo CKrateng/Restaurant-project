@@ -89,8 +89,3 @@
          cursor: grab;
       }
       
-      .koyo,.nav2{
-          display: flex;
-          justify-content: space-between;
-         
-      }

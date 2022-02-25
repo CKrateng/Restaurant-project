@@ -92,5 +92,5 @@
       .koyo,.nav2{
           display: flex;
           justify-content: space-between;
-         
+          width:50%;
       }

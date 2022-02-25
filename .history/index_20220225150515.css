@@ -36,9 +36,9 @@
             }
             nav{
                 text-align: center;
-                width:60%;
-                background-color: rgba(0, 0, 0, 0.151);
-                margin-left: 20rem;
+                
+                
+                
             }
       .nav li{
           color: white;
@@ -89,8 +89,3 @@
          cursor: grab;
       }
       
-      .koyo,.nav2{
-          display: flex;
-          justify-content: space-between;
-         
-      }

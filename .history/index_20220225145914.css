@@ -13,12 +13,11 @@
             #cover{
                 
                 
-                /* background-image: url("meaty.jpg");
+                background-image: url("meaty.jpg");
                 background-size: cover;
-               
-                background-position: center center; */
-
                 height: 100vh;
+                background-position: center center;
+
                 background:url("meaty.jpg")center/cover no-repeat ;
                 position: relative;
                 
@@ -36,9 +35,9 @@
             }
             nav{
                 text-align: center;
-                width:60%;
-                background-color: rgba(0, 0, 0, 0.151);
-                margin-left: 20rem;
+                
+                
+                
             }
       .nav li{
           color: white;
@@ -89,8 +88,3 @@
          cursor: grab;
       }
       
-      .koyo,.nav2{
-          display: flex;
-          justify-content: space-between;
-         
-      }
