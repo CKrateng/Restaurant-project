@@ -1,96 +1,84 @@
-            html{
-                height: 100vh;
-            }
-            *{
-             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-             margin: 0;
-             padding: 0;
-             color: white;
-             text-decoration: none;
-             
-            
-            }
-            #cover{
-                
-                
-                /* background-image: url("meaty.jpg");
-                background-size: cover;
-               
-                background-position: center center; */
+html{
+    height: 100vh;
+}
+*{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+ padding: 0;
+ color: white;
+ text-decoration: none;
+ 
+}
+#cover{
+    background: url("meaty.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center center;  
+}
 
-                height: 100vh;
-                background:url("meaty.jpg")center/cover no-repeat ;
-                position: relative;
-                
-            }
-         
-            h1{
-                color: aliceblue;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: auto;
-                margin-top: 4rem;
-                font-size: 70px;
-                
-            }
-            nav{
-                text-align: center;
-                width:60%;
-                background-color: rgba(0, 0, 0, 0.151);
-                margin-left: 20rem;
-            }
-      .nav li{
-          color: white;
-          padding: 1rem;
-          display:inline-block;
-          justify-content: center;
-          align-items:center;
-          
-      }
-      a:hover,a:active{
-          color: rgba(230, 205, 97, 0.753);
-          background-color: rgb(54, 46, 44);
-          width: 10%;
-      }
-      
+h1{
+    color: aliceblue;
+    width: fit-content;
+    margin: 4rem auto;
+    font-size: 70px;
+    margin-bottom: 4rem;
+    
+}
+div>.h1 {
+    margin-bottom: 400px;
+}
+nav{
+    text-align: center;
+    background-color: rgba(105, 105, 105, 0.212);
+    width: 70%;
+    margin: 0 auto;
+    
+    
+    
+}
+.nav ul{
+color: white;
+padding: 1rem;
+display: flex;
+justify-content: center;
+align-items:center;
+list-style: none;
 
-      .catchy p{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 30rem;
-          margin: auto;
-          
-      }
-      .contact{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: aliceblue;
-          margin: 5rem;
-          font-weight:bold;
-      }
-      #logo img{
-        width: 150px;
-        margin: 0 auto;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 5rem;
-          border-radius: 15px 40px 15px 40px;
-          opacity: 65%;
+}
+.nav li{
+margin-right: 50px;
+font-size: small;
+}
+a:hover,a:active{
+box-shadow: 0 1px 5px 1px#ccc;
+}
 
-      }
-      address>a:hover, address>a:active{
-        color:rgb(16, 20, 238);
-        background-color:unset;
-         width: 4rem;
-         cursor: grab;
-      }
-      
-      .koyo,.nav2{
-          display: flex;
-          justify-content: space-between;
-         
-      }
+
+.catchy p{
+
+width: 30rem;
+margin: auto;
+
+}
+.contact{
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+margin: 5rem;
+font-weight:bold;
+}
+#logo img{
+width: 100px;
+margin: 10px auto;
+border-radius: 15px 40px 15px 40px;
+opacity: 60%;
+display: flex;
+
+
+}
+address>a:hover, address>a:active{
+color: #ccc;
+background-color:unset;
+width: 4rem;
+cursor: grab;
+}
